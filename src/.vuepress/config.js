@@ -39,7 +39,7 @@ module.exports = {
     },
   },
   port: 3009,
-  dest: "dist", // 指定 vuepress build 的输出目录
+  dest: "web-jenkins", // 指定 vuepress build 的输出目录
   serviceWorker: true, // pwa
   themeConfig: {
     repo: 'https://github.com/zhoubichuan/web-jenkins', // 源码地址
