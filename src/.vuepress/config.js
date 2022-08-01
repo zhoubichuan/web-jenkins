@@ -5,7 +5,7 @@ module.exports = {
   port: 3009,
   dest: 'dist', // 指定 vuepress 的输出目录
   markdown: {
-    lineNumbers: true // 代码块显示行号
+    lineNumbers: true, // 代码块显示行号
   },
   plugins: {
     'demo-container': true,
@@ -28,24 +28,25 @@ module.exports = {
       locale: 'zh', //语言
       // 其他的 Vssue 配置
       owner: 'zhoubichuan', //github账户名
-      repo: 'web-mobile', //github一个项目的名称
+      repo: 'web-vue', //github一个项目的名称
       clientId: 'Iv1.2923ba5d4de48a3c', //注册的Client ID
       clientSecret: '110210', //注册的Client Secret
       autoCreateIssue: true // 自动创建评论，默认是false，最好开启，这样首次进入页面的时候就不用去点击创建评论的按钮了。
     },
-    "vuepress-plugin-boxx": ["vuepress-plugin-boxx"]
   },
-  // 主题配置
+  serviceWorker: true, // pwa
   themeConfig: {
+    repo: 'https://github.com/zhoubichuan/web-mobile', // 源码地址
+    repoLabel: '查看源码', // (查看源码的)组件名称
+    docsBranch: 'master', // git 源仓库 仓库分支
     editLinks: true,
     docsDir: 'src', // 假如文档不是放在仓库的根目录下
-    docsBranch: 'master', // 假如文档放在一个特定的分支下
     editLinks: true, // 启用编辑
     editLinkText: '在github上编辑此页',
-    sidebarDepth: 2,
+    sidebarDepth: 0,
     lastUpdated: '上次更新', // 获取每个文件最后一次 git 提交的时间戳
+    searchMaxSuggestoins: 10,
     nav: require('./nav.js'),
     sidebar: require('./sidebar.js'),
-    searchMaxSuggestoins: 10
   },
 }
