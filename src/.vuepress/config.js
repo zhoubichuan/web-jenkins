@@ -1,9 +1,9 @@
 module.exports = {
-  title: '浏览器学习笔记',
+  title: 'css学习笔记',
   description: '风浪没平息 我宣告奔跑的意义',
-  base: '/web-mobile/', // 部署站点的基础路径
+  base: '/web-css/', // 部署站点的基础路径
   port: 3009,
-  dest: 'dist', // 指定 vuepress 的输出目录
+  dest: 'web-css', // 指定 vuepress 的输出目录
   markdown: {
     lineNumbers: true, // 代码块显示行号
   },
@@ -36,7 +36,7 @@ module.exports = {
   },
   serviceWorker: true, // pwa
   themeConfig: {
-    repo: 'https://github.com/zhoubichuan/web-mobile', // 源码地址
+    repo: 'https://github.com/zhoubichuan/web-css', // 源码地址
     repoLabel: '查看源码', // (查看源码的)组件名称
     docsBranch: 'master', // git 源仓库 仓库分支
     editLinks: true,
