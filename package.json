@@ -1,10 +1,10 @@
 {
-  "name": "web-javascript",
+  "name": "web-css",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "author": "zhoubichaun@icloud.com",
-  "hommepage": "https://github.com/zhoubichuan/web-javascript/",
+  "hommepage": "https://github.com/zhoubichuan/web-css/",
   "private": true,
   "license": "MIT",
   "scripts": {

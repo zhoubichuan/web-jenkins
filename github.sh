@@ -4,14 +4,14 @@
 npm run src:build
 
 # 2.进入打包目录
-cd web-javascript
+cd web-css
 
 # 3.发布到gh-pages分支
 git init
 git checkout --orphan gh-pages
 git add .
 git commit -m 'gh-pages'
-git remote add origin https://github.com/zhoubichuan/web-javascript.git
+git remote add origin https://github.com/zhoubichuan/web-css.git
 git push -f origin gh-pages
 
 # 4.返回初始目录

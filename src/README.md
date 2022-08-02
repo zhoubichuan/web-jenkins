@@ -5,10 +5,10 @@ heroImage: ./home.png
 actionText: 先睹为快 →
 actionLink: /base/1.html/1.三栏布局.html
 pageClass: page_index
-footer: JavaScript相关知识
+footer: html css相关知识
 meta:
   - name: keywords
-    content: JavaScript相关,前端学习,前端笔记
+    content: html css相关,前端学习,前端笔记
 ---
 
 <template>
